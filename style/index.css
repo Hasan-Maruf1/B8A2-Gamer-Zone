@@ -37,7 +37,6 @@ main {
     align-items: center;
     padding-right: 5rem;
     padding-left: 5rem;
-    height: 100px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
@@ -72,17 +71,18 @@ main {
 
 }
 
-.nav-social-btn  {
+.nav-social-btn {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
 }
 
-.nav-social-btn button{
+.nav-social-btn button {
     border: none;
     background-color: rgba(11, 2, 35, 0);
 }
-.nav-social-btn button:hover{
+
+.nav-social-btn button:hover {
     cursor: pointer;
 }
 
@@ -100,11 +100,12 @@ main {
 .banner-img {
     display: flex;
     justify-content: right;
+    width: 50%;
 
 }
 
 .banner-img img {
-    width: 70%;
+    width: 100%;
 }
 
 .banner-title {
@@ -298,8 +299,9 @@ main {
     background-color: #0B0223;
     height: 50vh;
 }
-.footer-title-container{
-padding: 0.8rem 5rem;
+
+.footer-title-container {
+    padding: 0.8rem 5rem;
 }
 
 .footer-title {
@@ -334,35 +336,91 @@ padding: 0.8rem 5rem;
 
 }
 
-.social-links{
+.social-links {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .footer-imp-link {
-text-align: center;
-margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 
 }
-.footer-imp-link a ,.footer-copyright{
+
+.footer-imp-link a,
+.footer-copyright {
     color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
     padding: 10px;
     font-weight: 500;
 }
-.footer-copyright{
+
+.footer-copyright {
     text-align: center;
 }
 
+main,
+footer {
+    display: none;
+}
 
 
 
 @media screen and (max-width:576px) {
+    .site-logo img {
+        width: 50%;
+        height: 50%;
+        margin: 5px;
+    }
 
-    
+    .nav-container,
+    .nav-items {
+        margin-top: 5px;
+        flex-direction: column;
+
+    }
+    .nav-items{
+        gap: 15px;
+    }
+
+    .nav-items li {
+        padding-right: 5px;
+    }
+
+    .nav-social-btn {
+        flex-direction: column;
+    }
+    .banner-desc{
+        text-align: center;
+    }
+    .banner-container .go-rougue-btn ,.banner-container .signing-btn {
+        font-size: 1rem;
+        margin: auto;
+        padding: 15px 50px;
+        flex-direction: row;
+
+}
+.banner-container{
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+}
+.banner-img {
+    display: flex;
+    justify-content: right;
+    width: 80%;
+
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {
-    
-    
+.banner-img img {
+    width: 100%;
 }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px) {}
