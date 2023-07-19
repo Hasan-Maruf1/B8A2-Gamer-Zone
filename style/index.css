@@ -130,13 +130,23 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-desc {
+
+.banner-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+
     color: #534C64;
     text-align: left;
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 10px;
+    align-items: center;
+}
+.banner-list li img{
+    padding-right: 5px;
 }
 
 
