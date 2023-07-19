@@ -45,6 +45,8 @@ main {
 
 .nav-items {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 5px;
 
@@ -60,6 +62,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    font-size: 1.5rem;
 
 }
 
@@ -67,6 +70,20 @@ main {
     width: 20%;
     height: 20%;
 
+}
+
+.nav-social-btn  {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+
+.nav-social-btn button{
+    border: none;
+    background-color: rgba(11, 2, 35, 0);
+}
+.nav-social-btn button:hover{
+    cursor: pointer;
 }
 
 /* Banner section style */
@@ -235,4 +252,117 @@ main {
     position: relative;
     top: -25%;
     left: -75%;
+}
+
+/* games catagory section */
+.games-catagory-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px 100px;
+    margin-bottom: 30px;
+    background-color: #f5eef2;
+
+}
+
+.games-catagory-container a {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.games-catagory-container a img {
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.games-catagory-container a:hover {
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+
+}
+
+/* footer section */
+.footer-container {
+    background-color: #0B0223;
+    height: 50vh;
+}
+.footer-title-container{
+padding: 0.8rem 5rem;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.footer-title img {
+    padding-right: 5px;
+}
+
+.footer-title-color {
+    color: #F948B2;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-imp-link {
+text-align: center;
+margin-top: 20px;
+
+}
+.footer-imp-link a ,.footer-copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+.footer-copyright{
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    
 }
