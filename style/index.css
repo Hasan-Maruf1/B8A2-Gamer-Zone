@@ -423,4 +423,39 @@ footer {
 }
 
 
-@media screen and (min-width:576px) and (max-width:992px) {}
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+
+
+    .banner-desc{
+        text-align: center;
+    }
+    .banner-container .go-rougue-btn ,.banner-container .signing-btn {
+        font-size: 1rem;
+        margin: auto;
+        padding: 15px 50px;
+        flex-direction: row;
+
+}
+.banner-container{
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+}
+.banner-img {
+    display: flex;
+    justify-content: right;
+    width: 80%;
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+}
