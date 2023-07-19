@@ -360,7 +360,8 @@ main {
     text-align: center;
 }
 
-main,
+.play-container, 
+.games-catagory-container,
 footer {
     display: none;
 }
@@ -416,6 +417,17 @@ footer {
     width: 100%;
 }
 
+.games-items-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+.games-container{
+    padding: 10px 20px;
+}
+
 
 
 
@@ -451,6 +463,18 @@ footer {
 
 .banner-img img {
     width: 100%;
+}
+
+
+.games-items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+.games-container{
+    padding: 10px 50px;
 }
 
 
