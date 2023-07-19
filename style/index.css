@@ -244,7 +244,7 @@ main {
 }
 
 .play-img {
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -252,7 +252,7 @@ main {
     width: 30%;
     position: relative;
     top: -25%;
-    left: -75%;
+    left: -80%;
 }
 
 /* games catagory section */
@@ -360,7 +360,6 @@ main {
     text-align: center;
 }
 
-.play-container, 
 .games-catagory-container,
 footer {
     display: none;
@@ -381,7 +380,8 @@ footer {
         flex-direction: column;
 
     }
-    .nav-items{
+
+    .nav-items {
         gap: 15px;
     }
 
@@ -392,41 +392,72 @@ footer {
     .nav-social-btn {
         flex-direction: column;
     }
-    .banner-desc{
+
+    .banner-desc {
         text-align: center;
     }
-    .banner-container .go-rougue-btn ,.banner-container .signing-btn {
+
+    .banner-container .go-rougue-btn,
+    .banner-container .signing-btn {
         font-size: 1rem;
         margin: auto;
         padding: 15px 50px;
         flex-direction: row;
 
-}
-.banner-container{
-    flex-direction: column-reverse;
-    padding: 20px 20px;
-}
-.banner-img {
-    display: flex;
-    justify-content: right;
-    width: 80%;
+    }
 
-}
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+    }
 
-.banner-img img {
-    width: 100%;
-}
+    .banner-img {
+        display: flex;
+        justify-content: right;
+        width: 80%;
 
-.games-items-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
+    }
 
-}
-.games-container{
-    padding: 10px 20px;
-}
+    .banner-img img {
+        width: 100%;
+    }
+
+    .games-items-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .games-container {
+        padding: 10px 20px;
+    }
+
+    /* play section */
+    .play-container {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 20px;
+        text-align: center;
+
+    }
+
+    .play-img-container {
+        width: 100%;
+
+    }
+
+    .play-img {
+        width: 80%;
+
+    }
+
+    .play-img-container .img-over-img {
+        width: 20%;
+        top: -80px;
+        left: -140px;
+    }
 
 
 
@@ -440,42 +471,71 @@ footer {
 
 
 
-    .banner-desc{
+    .banner-desc {
         text-align: center;
     }
-    .banner-container .go-rougue-btn ,.banner-container .signing-btn {
+
+    .banner-container .go-rougue-btn,
+    .banner-container .signing-btn {
         font-size: 1rem;
         margin: auto;
         padding: 15px 50px;
         flex-direction: row;
 
-}
-.banner-container{
-    flex-direction: column-reverse;
-    padding: 20px 20px;
-}
-.banner-img {
-    display: flex;
-    justify-content: right;
-    width: 80%;
+    }
 
-}
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+    }
 
-.banner-img img {
-    width: 100%;
-}
+    .banner-img {
+        display: flex;
+        justify-content: right;
+        width: 80%;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
 
 
-.games-items-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
+    .games-items-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
 
-}
-.games-container{
-    padding: 10px 50px;
-}
+    }
+
+    .games-container {
+        padding: 10px 50px;
+    }
+
+    .play-container {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 20px;
+        text-align: center;
+
+    }
+
+    .play-img-container {
+        width: 100%;
+
+    }
+
+    .play-img {
+        width: 80%;
+
+    }
+
+    .play-img-container .img-over-img {
+        width: 20%;
+        top: -100px;
+        left: -250px;
+    }
 
 
 
