@@ -299,7 +299,7 @@ main {
 /* footer section */
 .footer-container {
     background-color: #0B0223;
-    height: 50vh;
+
 }
 
 .footer-title-container {
@@ -360,12 +360,11 @@ main {
 
 .footer-copyright {
     text-align: center;
+    padding: 5px 15px 30px 15px;
 }
 
 
-footer {
-    display: none;
-}
+
 
 
 
@@ -479,6 +478,23 @@ footer {
     }
 
 
+    .footer-title-container {
+        padding: 0.8rem 1rem;
+    }
+
+    .footer-nav{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .footer-container{
+
+        padding: 5px 15px;
+    }
+
+
 
 
 }
@@ -570,9 +586,6 @@ footer {
     .games-catagory-container a img {
         width: 40px;
     }
-
-
-
 
 
 
